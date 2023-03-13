@@ -11,7 +11,7 @@ namespace EmployeeManagementSystem.Model
         public string Name { get; set; }
 
         [Required(ErrorMessage = "Please provide a valid age.")]
-        [Range(21, 100, ErrorMessage = "Age must be between 18 and 120.")]
+        [Range(21, 100, ErrorMessage = "Age must be between 21 and 100.")]
         public int Age { get; set; }
 
         [Required]
